@@ -50,5 +50,6 @@ def init_db():
             ],
         )
         conn.execute("INSERT INTO settings(key,value) VALUES ('waste_pct','8')")
+        conn.execute("INSERT INTO settings(key,value) VALUES ('take_max','0')")
         conn.commit()
     conn.close()

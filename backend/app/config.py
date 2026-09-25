@@ -6,3 +6,4 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 DB_PATH = DATA_DIR / "app.db"
 
 DEFAULT_WASTE_PCT = 8.0
+DEFAULT_TAKE_MAX = False
